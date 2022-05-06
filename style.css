@@ -39,3 +39,7 @@ main {
 #evaluation-form div {
   flex-direction: row;
 }
+
+#label-rate input {
+  display: inline;
+}
