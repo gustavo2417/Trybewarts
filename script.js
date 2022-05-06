@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const sla = document.querySelectorAll('input')[0];
 const teste = document.querySelectorAll('input')[1];
 
@@ -8,10 +7,13 @@ function mensagem() {
   } else {
     alert('Email ou senha inválidos.');
   }
+  return mensagem;
 }
+console.log(mensagem);
 
 function active() {
   let selectorC = document.getElementById('submit-btn');
   selectorC = selectorC.removeAttribute('disabled');
   return selectorC;
 }
+console.log(active);
