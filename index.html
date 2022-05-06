@@ -69,26 +69,26 @@
 
         <label class="textarea">Deixe seu comentário:
         
-          <textarea id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+          <textarea id="textarea" cols="30" rows="10" maxlength="500" id="textarea"></textarea>
         
         </label>
        
         
         <label id="label-infos">Você concorda com o uso das informações acima?
         
-          <input type="checkbox" id="agreement">
+          <input type="checkbox" id="agreement" onclick="active()">
         
         </label>
-
-
+       
+         <button type="submit" id="submit-btn" disabled>Enviar</button>
+     
       </form>
       
       <img src="/sd-022-b-project-trybewarts/images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="logo da trybwarts">
 
+      <footer>Direitos reservados à Trybewarts©</footer>
+
     </main>
-
-    
-
   <script src="script.js"></script>
 </body>
 </html>
